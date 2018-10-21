@@ -20,8 +20,9 @@ public class ToDoistTests extends AndroidSetupToDoist {
         WebElement Ok = driver.findElement(By.id("android:id/button1"));
         Ok.click();
         Thread.sleep(1000);
-        WebElement email = driver.findElement(By.id("com.todoist:id/btn_google"));
-        email.click();
+        WebElement emailButton = driver.findElement(By.id("com.todoist:id/btn_google"));
+        emailButton.click();
+        //test can't find emailButton
         WebElement fieldEmail = driver.findElement(By.id("com.todoist:id/email_exists_input"));
         fieldEmail.sendKeys("hello167@meta.ua");
         WebElement buttonContinueEmail = driver.findElement(By.id("com.todoist:id/btn_continue_with_email"));
