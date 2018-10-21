@@ -1,0 +1,6 @@
+{
+  "platformName": "Android",
+  "deviceName": "192.168.56.101:5555",
+  "appPackage": "com.todoist",
+  "appActivity": "com.todoist.activity.HomeActivity"
+}
